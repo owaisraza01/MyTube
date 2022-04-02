@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "all";
+    src: url(./Roboto-Medium.ttf);
+}
+#logo{
+    margin-left: 20px;
+}
+body{
+    background-color: white;
+    font-family: "all";
+}
+#search{
+    position: absolute;
+    top: 30px;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: black;
+    left: 400px;
+}
+#searchpng{
+    position: absolute;
+    top: 35px;
+    left: 810px;
+
+}
+#tlines{
+    position: absolute;
+    top: 36px;
+    right: 90px;
+
+}
+#spanl{
+    width: 20%;
+    display: inline-block;
+}
+#span2{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+dd{
+    margin-top: 10px;
+}
+dl{
+    width: 15%;
+}
+#ulu{
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+li{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: rgb(173, 165, 165);
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 14px;
+}
+dd:hover{
+    background-color: rgb(173, 165, 165) ;
+}
+li:hover{
+    background-color: aliceblue;
+}
+iframe{
+    margin: 5px;
+}
+#dots{
+    position: absolute;
+    top: 38px;
+    left: 16px;
+}
